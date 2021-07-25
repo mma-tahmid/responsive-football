@@ -3,6 +3,7 @@ body{
     font-size: 18px;
 }
 
+/* ----- first section start----- */
 .link_button{
     text-decoration: none;
     background-image: linear-gradient(orange, red)  ;
@@ -43,3 +44,63 @@ font-weight: 700;
 .link_button{
     padding: 2%;
 }
+
+/* ----- first section END----- */
+
+/* ----- second section Start----- */
+
+.second_section{
+
+    padding-top: 4%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+  .second_section .grid-container .grid-cell div img{
+    width: 300px;
+    height: 256px;
+    padding-left: 20px;
+    padding-top: 13px;
+ 
+
+
+}
+
+.grid-container{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-left: 20%;
+    padding-right: 10%;
+    grid-row-gap: 28px;
+   
+    
+   
+    /* grid-row-gap: 40px; */
+    
+    
+    
+    
+    
+}
+
+
+.grid-cell{
+    box-shadow: 5px 5px 30px gray;
+    /* border-radius: 25px; */
+    padding-right: 25px;
+/* width: fit-content; */
+width: min-content;            
+
+/* (----> {this point (width) facing problem} ------>) */
+
+    
+}
+
+.details{
+
+    padding-left: 20px;
+    text-align: justify;
+}
+
+
